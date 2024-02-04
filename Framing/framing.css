@@ -1,0 +1,44 @@
+.calcContainer {
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2rem;
+    margin: 4rem;
+}
+
+.inputSide {
+    display: flex;
+    flex-direction: column;
+}
+
+.inputTitle {
+    display: flex;
+    justify-content: center;
+}
+
+.valueContainer {
+    display: flex;
+}
+
+.priceContainer {
+    display: flex;
+}
+
+.outputSide {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.totalTitle {
+    display: flex;
+    justify-content: center;
+}
+
+.boardOutputContainer {
+    display: flex;
+}
+
+.totalCostContainer {
+    display: flex;
+}

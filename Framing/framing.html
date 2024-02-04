@@ -3,13 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <script src="script.js"></script>
+    <link rel="stylesheet" href="framing.css">
+    <script src="framing.js" defer></script>
     <title>Construction Calculator</title>
 </head>
 <body>
     <div class="calcContainer">
-        
+        <div class="inputSide">
+            <div class="inputTitle">Wall Length</div>
+            <div class="valueContainer">
+                <input class="feetInput" type="number" placeholder="0" name="feet">
+                <div class="valueText">Feet</div>
+                <input class="inchesInput" type="number" placeholder="0" name="inches">
+                <div class="valueText">Inches</div>
+            </div>
+            <div class="priceContainer">
+                <input class="priceInput" type="number" placeholder="$0.00" name="price">
+                <div class="priceText">Price per Board</div>
+            </div>
+        </div>
+        <div class="outputSide">
+            <div class="totalTitle">Totals</div>
+            <div class="boardOutputContainer">
+                <output class="boardTotals">0</output>
+                <div class="totalsText">Amount of Boards Needed</div>
+            </div>
+            <div class="totalCostContainer">
+                <output class="priceTotals" name="priceTotals">$0.00</output>
+                <div>Total Cost</div>
+            </div>
+        </div>
     </div>
 </body>
 </html>
