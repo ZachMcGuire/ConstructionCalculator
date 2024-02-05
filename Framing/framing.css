@@ -1,6 +1,33 @@
+body {
+    background-color: rgb(188, 188, 188);
+    font-family: "Permanent Marker", "Black Ops One";
+}
+
+.titleContainer {
+    margin: 2rem;
+
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 7rem;
+}
+
+.mainDisplay {
+    display: flex;
+    
+}
+
 .calcContainer {
     border: 1px solid black;
+    border-radius: 1%;
+    background-color: rgb(240, 255, 255);
+    box-shadow: .5rem .5rem rgb(215, 215, 215);
     display: flex;
+    flex-direction: column;
     justify-content: space-evenly;
     padding: 2rem;
     margin: 4rem;
@@ -9,12 +36,19 @@
 .inputSide {
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 .inputTitle {
     display: flex;
     justify-content: center;
+    padding: 1rem;
+    font-weight: bolder;
 }
+
+.feetInput, .inchesInput, .valueText, .priceInput, .priceText, .boardTotals, .totalsText, .priceTotals {
+    margin: 1rem;
+} 
 
 .valueContainer {
     display: flex;
@@ -24,15 +58,31 @@
     display: flex;
 }
 
+.buttonContainer {
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    padding: 4rem;
+}
+
+.submitBtn {
+    padding: 1rem;
+    border-radius: 10%;
+}
+
 .outputSide {
     display: flex;
     flex-direction: column;
+    align-items: center;
 
 }
 
 .totalTitle {
     display: flex;
     justify-content: center;
+    padding: 1rem;
+    font-weight: bolder;
 }
 
 .boardOutputContainer {
@@ -41,4 +91,25 @@
 
 .totalCostContainer {
     display: flex;
+}
+
+.infoText {
+    display: flex;
+    flex-direction: column;
+    margin-top: 4rem;
+}
+
+.displayText {
+    margin: 1.5rem;
+    border: 1px solid black;
+    background-color: rgb(240, 255, 255);
+    border-radius: .5rem;
+    min-width: 10rem;
+    padding: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+
 }
