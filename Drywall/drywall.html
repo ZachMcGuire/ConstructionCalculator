@@ -3,11 +3,73 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <script src="script.js"></script>
+    <link rel="stylesheet" href="drywall.css">
+    <!-- <script src="script.js"></script> -->
     <title>Construction Calculator</title>
 </head>
 <body>
-    
+    <div class="titleConatiner">
+        <h1 class="title">Drywall Calculator</h1>
+    </div>
+    <div class="mainDisplay">
+        <div class="infoText">
+            <div class="displayText 1">This is filler for display Text</div>
+        </div>
+        <div class="calculatorContainer">
+            <div class="calculatorTitle">
+                <div class="title">Drywall Calculator</div>
+            </div>
+            <div class="drywallInput">
+                <div class="drywallValues">
+                    <input class="wallFeet" type="number" placeholder="0" name="wallFeet">
+                    <div class="inputText">Feet</div>
+                    <input class="wallInches" type="number" placeholder="0" name="wallInches">
+                    <div class="inputText">Inches</div>
+                </div>
+                <div class="drywallPriceContainer">
+                    <input class="drywallPrice" type="number" placeholder="$0.00" name="drywallPrice">
+                    <div class="inputText">Cost per sheet</div>
+                </div>
+            </div>
+            <div class="buttonContainer">
+                <button class="submitBtn">Submit</button>
+            </div>
+            <div class="drywallOutputContainer">
+                <div class="drywallTotalTitle">Totals</div>
+                <output class="totalWallArea" name="totalWallArea">0</output>
+                <div>Total Wall Area (ft<sup>2</sup>)</div>
+            </div>
+            <div class="drywallAmountsContainer">
+                <div class="amountsCont1">
+                    <div class="sheetsTotals">
+                        <output class="numberofSheets" name="numberofSheets">0</output>
+                        <div>Number of 4' x 8' sheets</div>
+                        <output class="costOfSheets" name="costOfSheets">$0.00</output>
+                    </div>
+                    <div class="tapeTotals">
+                        <output class="numberofRolls" name="numberofRolls">0</output>
+                        <div>Number of 250' seam Tape</div>
+                        <output class="costOfTape" name="costOfTape">$0.00</output>
+                    </div>
+                </div>
+                <div class="amountsCont2">
+                    <div class="mudTotals">
+                        <output class="numberOfBuckets" name="numberOfBuckets">0</output>
+                        <div>Number of 250' seam Tape</div>
+                        <output class="costOBuckets" name="costOfBuckets">$0.00</output>
+                    </div>
+                    <div class="screwTotals">
+                        <output class="numberofScrews" name="numberOfScrews">0</output>
+                        <div>Number of 250' seam Tape</div>
+                        <output class="costOfScrews" name="costOfScrews">$0.00</output>
+                    </div>
+                </div>
+                
+                
+                    
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>

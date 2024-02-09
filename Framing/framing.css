@@ -1,6 +1,11 @@
+input {
+    font-family: "Black Ops One";
+}
+
 body {
-    background-color: rgb(188, 188, 188);
+    /* background-color: rgb(188, 188, 188); */
     font-family: "Permanent Marker", "Black Ops One";
+    background-image: url(images/bluprint.jpg);
 }
 
 .titleContainer {
@@ -44,6 +49,8 @@ body {
     justify-content: center;
     padding: 1rem;
     font-weight: bolder;
+    text-decoration: underline;
+    font-size: 2rem;
 }
 
 .feetInput, .inchesInput, .valueText, .priceInput, .priceText, .boardTotals, .totalsText, .priceTotals {
@@ -69,6 +76,7 @@ body {
 .submitBtn {
     padding: 1rem;
     border-radius: 10%;
+    font-family: "Permanent Marker", "Black Ops One";;
 }
 
 .outputSide {
@@ -83,6 +91,8 @@ body {
     justify-content: center;
     padding: 1rem;
     font-weight: bolder;
+    text-decoration: underline;
+    font-size: 2rem;
 }
 
 .boardOutputContainer {
@@ -103,6 +113,7 @@ body {
     margin: 1.5rem;
     border: 1px solid black;
     background-color: rgb(240, 255, 255);
+    box-shadow: .5rem .5rem rgb(215, 215, 215);
     border-radius: .5rem;
     min-width: 10rem;
     padding: 1rem;
@@ -110,6 +121,9 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    font-size: 1.5rem;
+}
 
-
+.boardTotals, .priceTotals {
+    font-family: "Black Ops One";
 }

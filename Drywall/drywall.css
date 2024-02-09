@@ -1,0 +1,107 @@
+body {
+    font-size: larger;
+}
+
+.titleContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
+
+
+}
+
+.mainDisplay {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 2rem;
+
+}
+
+.calculatorContainer {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    padding: 2rem;
+    
+
+}
+
+.buttonContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.calculatorTitle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem;
+
+}
+
+.drywallInput {
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
+}
+
+.drywallValues, .drywallPriceContainer {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+}
+
+input {
+    display: flex;
+    margin: 1rem;
+}
+
+.inputText {
+    display: flex;
+    justify-content: center;
+
+}
+
+.drywallOutputContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem;
+}
+
+.drywallTotalTitle {
+    padding: 1rem;
+}
+
+.totalWallArea {
+    padding: 1rem;
+}
+
+.drywallAmountsContainer {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 1rem;
+}
+
+.sheetsTotals, .tapeTotals, .mudTotals, .screwTotals {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem;
+}
+
+.numberofSheets, .costOfSheets, .numberofRolls, .costOfTape {
+    margin: 1rem;
+}
+
+.numberOfBuckets, .costOBuckets, .numberofScrews, .costOfScrews {
+    margin: 1rem;
+}
+
+
+
